@@ -1,0 +1,16 @@
+/* adressage absolu d'une google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+h1 {
+    color: rgb(112, 45, 200);
+    /* taille texte */
+    font-size: 50px;
+    /* centrage horizontal */
+    text-align: center;
+    /* espacement caractères */
+    letter-spacing: 4px;
+    /* ombrage */
+    text-shadow: 8px 16px 25px #777;
+    /* font */
+    font-family: 'Poppins', sans-serif;
+}
