@@ -1,0 +1,14 @@
+* {
+    margin: 0; padding: 0;
+}
+
+article {
+    width: 500px;
+    box-sizing: border-box; /* rustine pour garder la même largeur malgré la padding */
+    padding: 10px 15px 10px 15px;
+    background: rgb(175, 232, 62);
+}
+
+article p {
+    font-size: 18px;
+}
