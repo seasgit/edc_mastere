@@ -1,0 +1,25 @@
+.s1{
+    width: 600px;
+    /* pas de hauteur */
+    height: auto;
+    border:10px solid black;
+}
+
+/* sélecteur de l'image contenue dans la section s1 */
+.s1 img {
+    width: 100%;
+    display: table; /*hack pour enlever l'espace en bas de l'image */
+}
+
+.s2 {
+    width: 450px;
+    height: 450px;
+    border:10px solid black;
+}
+
+.s2 img {
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    object-position: 0 0;
+}

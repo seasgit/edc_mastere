@@ -1,0 +1,26 @@
+
+
+.portraits {
+    position: relative;
+    margin: 80px auto 0 auto;
+    width: 400px;
+    height: 700px;
+    border: 10px solid #777;
+}
+
+.portraits img {
+    position: absolute;
+    left: 0;top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/* 
+    placer la section au milieu de la page et à 80px du haut.
+    Superposer dans la section les 3 images qui s'adaptent aux
+    dimensions de la section. (on ne doit voir que la dernière)
+*/

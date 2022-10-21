@@ -1,0 +1,8 @@
+section {
+    width: 700px;
+    height: 500px;
+    border:5px solid black;
+    background-image: url(../img/pexels-photo-167699.webp);
+    background-size: cover;
+    background-position: 100% 100%;
+}
