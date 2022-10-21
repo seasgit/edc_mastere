@@ -1,0 +1,16 @@
+p:nth-of-type(2n) {
+    font-family: sans-serif;
+    letter-spacing: 4px;
+}
+
+p:nth-of-type(2):hover{
+    color:red;
+}
+
+p:nth-of-type(3) {
+    font-size: 20px;
+}
+
+p span:hover {
+    color:orangered;
+}

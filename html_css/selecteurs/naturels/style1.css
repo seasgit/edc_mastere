@@ -1,0 +1,22 @@
+/* tous les paragraphes */
+p {
+  font-family: sans-serif;  
+}
+
+p span {
+    color:red;
+}
+
+/* tous les paragraphes de la section */
+section p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section p span {
+    color: rgb(51, 192, 51);
+}
+
+/* le 2ème paragraphe */
+p + p {
+    font-size: 20px;
+}

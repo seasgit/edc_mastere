@@ -1,0 +1,19 @@
+p {
+    font-size: 28px;
+    color:green;
+}
+
+/* la classe a plus de poids que le sélecteur naturel */
+.p1 {
+    color:dodgerblue;
+}
+
+/* l'id a plus de poids que la classe */
+#p1 {
+    color:orange;
+}
+
+
+p {
+    color: blueviolet !important;
+}

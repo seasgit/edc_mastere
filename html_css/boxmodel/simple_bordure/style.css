@@ -1,0 +1,10 @@
+.box{
+    width: 500px;
+    height: 400px;
+    background-color: aquamarine;
+    /* bordure autour */
+    /* border: 10px solid rgb(136, 192, 198); */
+
+    /* bordure haute */
+    border-top: 10px solid rgb(136, 192, 198); ;
+}

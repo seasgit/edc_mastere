@@ -1,0 +1,14 @@
+
+.alert {
+    color: orangered
+}
+
+
+.info{
+    color:dodgerblue;
+}
+
+.important{
+    font-family: sans-serif;
+    font-size: 20px;
+}
