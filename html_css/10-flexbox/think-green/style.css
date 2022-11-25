@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&display=swap');
+
+*{
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding-left: 20px;
+    margin:50px auto 0 auto;
+    width: 900px;
+    height: 250px;
+    background-image: url(./images/think-green/fond.svg);
+    background-size: 100%;
+    background-position: 100% 100%;
+}
+
+.container h1 {
+    font-weight: normal;
+    font-size: 50px;
+    color:#008800;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+.container h2 {
+    font-size: 28px;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+.container p {
+    width: 50%;
+    margin: 8px 0 8px 0;
+    font-size: 16px;
+    color:#005500;
+    font-family: 'Comfortaa', cursive;
+}
+
+.container div img {
+    margin-right:10px;
+}

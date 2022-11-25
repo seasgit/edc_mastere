@@ -1,0 +1,36 @@
+/* asterisque symbolise tous les éléments html */
+* {
+    margin: 0;
+}
+
+
+.jungle {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    margin: 20px auto;
+}
+
+.jungle img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.soldat {
+    position: absolute;
+    bottom: 10px;
+    left: 150px;
+    width: 141px;
+    height: 191px;
+    background-image: url(../../../data/images/jungle/soldat.png);
+    background-position: -282px 0;
+
+}
+
+
+
+
