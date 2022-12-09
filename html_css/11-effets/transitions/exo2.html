@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>effet transition</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+        }
+
+        div {
+            position: relative;
+            margin: auto;  /* raccouri pour centrer un élément dans un parent flex */
+            width: 100px;
+            height: 100px;
+            background: red;
+            transition: 1s;
+        }
+
+        div p {
+            position: absolute;
+            font-weight: bold;
+            top:25%; left: 20%;
+            opacity: 0;
+            transition: 1s;
+        }
+
+        div:hover {
+            background: yellow;
+        }
+        div:hover p {
+            opacity: 1;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>HELLO!</p>
+    </div>
+</body>
+</html>
