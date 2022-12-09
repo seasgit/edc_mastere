@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform translate</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .s {
+            width: 300px;  height: 200px;
+            /* on cache ce qui dépasse */
+            overflow: hidden;
+        }
+
+        .s div {
+            width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.737);
+        }
+
+        .s1 {
+            background-image: url(./perroquets.jpeg);
+            background-size: cover;
+        }
+
+        .s1 div {
+            transform: translateY(-100%);
+            transition: .3s;
+        }
+
+        .s1:hover div{
+            transform: translateY(0);
+        }
+
+        .s2 img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .s2 {
+            position: relative;
+        }
+
+        .s2 div {
+            transform: translateY(-100%);
+            position: absolute;
+            transition: .3s;
+            top: 0;
+            left: 0;
+        }
+        .s2:hover div{
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <section class="s s1">
+        <div></div>
+    </section>
+    <section class="s s2">
+        <img src="./perroquets.jpeg" alt="">
+        <div></div>
+    </section>
+    
+
+</body>
+</html>
